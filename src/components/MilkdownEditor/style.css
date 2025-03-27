@@ -1,0 +1,174 @@
+.milkdown {
+  --crepe-color-surface: #f8f9ff;
+  --crepe-color-surface-low: #f2f3fa;
+  --crepe-color-on-surface: #191c20;
+  --crepe-color-on-surface-variant: #43474e;
+  --crepe-color-primary: #37618e;
+  --crepe-color-secondary: #d7e3f8;
+  --crepe-color-on-secondary: #101c2b;
+  --crepe-color-inverse: #2e3135;
+  --crepe-color-on-inverse: #eff0f7;
+  --crepe-color-inline-code: #ba1a1a;
+  --crepe-color-error: #ba1a1a;
+  --crepe-color-hover: #eceef4;
+  --crepe-color-selected: #e1e2e8;
+  --crepe-color-inline-area: #d8dae0;
+
+  @apply bg-transparent;
+
+  ol,
+  ul,
+  dl {
+    @apply ps-0;
+  }
+
+  h1,
+  h2 {
+    @apply mt-6;
+  }
+
+  hr {
+    @apply my-8;
+  }
+
+  .milkdown-editor {
+    @apply p-0;
+    &[contenteditable="false"] > p:last-child {
+      @apply hidden;
+    }
+  }
+
+  milkdown-list-item-block {
+    li .label-wrapper .label {
+      @apply p-0;
+    }
+    p {
+      @apply mt-0 mb-0;
+    }
+  }
+
+  milkdown-list-item-block milkdown-toolbar,
+  milkdown-link-edit,
+  milkdown-link-preview,
+  milkdown-latex-inline-edit {
+    @apply bg-slate-50 shadow-md dark:bg-slate-800 rounded-md;
+  }
+
+  milkdown-toolbar .toolbar-item {
+    &.active {
+      svg {
+        @apply dark:fill-slate-500 fill-slate-800;
+      }
+    }
+    svg {
+      @apply dark:fill-slate-400 fill-slate-500;
+    }
+  }
+
+  milkdown-toolbar .divider {
+    @apply bg-slate-300;
+  }
+
+  .cm-activeLineGutter,
+  milkdown-code-block .cm-editor {
+    @apply bg-transparent;
+  }
+
+  milkdown-code-block .cm-gutters {
+    @apply hidden;
+  }
+
+  milkdown-table-block svg,
+  milkdown-link-edit > .link-edit > .button > svg,
+  milkdown-link-preview > .link-preview > .link-icon > svg,
+  milkdown-link-preview > .link-preview > .button > svg,
+  milkdown-block-handle .operation-item svg {
+    @apply dark:fill-slate-400 fill-slate-500;
+  }
+
+  milkdown-list-item-block li .label-wrapper svg {
+    @apply fill-slate-300 dark:fill-slate-500;
+  }
+
+  milkdown-code-block {
+    @apply bg-slate-50 dark:bg-slate-800 rounded-md pt-2 p-4 max-sm:pt-1 max-sm:p-2;
+  }
+
+  milkdown-code-block .list-wrapper {
+    @apply bg-slate-100 dark:bg-slate-800 shadow-md;
+  }
+
+  milkdown-slash-menu {
+    @apply bg-slate-100 shadow-md;
+  }
+
+  milkdown-slash-menu .tab-group ul,
+  milkdown-slash-menu .tab-group ul li,
+  milkdown-slash-menu ul,
+  milkdown-slash-menu .tab-group ul li {
+    @apply mt-0 mb-0;
+  }
+
+  milkdown-slash-menu {
+    @apply rounded-sm block;
+  }
+
+  milkdown-slash-menu ul {
+    @apply ps-0;
+  }
+
+  milkdown-slash-menu .tab-group ul li.selected {
+    @apply bg-slate-200;
+  }
+
+  milkdown-slash-menu .menu-groups .menu-group li.hover,
+  milkdown-slash-menu .menu-groups .menu-group li.active {
+    @apply bg-slate-200 transition-colors;
+  }
+
+  milkdown-table-block .cell-handle {
+    @apply bg-slate-100 dark:bg-slate-900;
+  }
+
+  milkdown-block-handle {
+    @apply hidden;
+  }
+
+  [data-placeholder] {
+    @apply text-slate-400;
+  }
+
+  span[data-type="math_inline"] {
+    @apply text-inherit;
+  }
+
+  milkdown-code-block {
+    @apply p-0;
+
+    .tools {
+      @apply py-2 px-4 bg-slate-100 rounded-t-sm;
+      .language-button {
+        @apply opacity-100 mb-0;
+      }
+    }
+
+    .codemirror-host {
+      @apply py-2 px-4;
+    }
+  }
+}
+
+.markdown-editor {
+  .cm-editor {
+    @apply bg-transparent dark:text-slate-200;
+    &.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground,
+    .cm-selectionBackground,
+    .cm-content ::selection {
+      @apply bg-blue-400/40;
+    }
+  }
+}
+
+milkdown-slash-menu {
+  @apply hidden;
+}

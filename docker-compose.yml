@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  deep-research:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: deep-research
+    container_name: deep-research
+    environment:
+      - ACCESS_PASSWORD=$ACCESS_PASSWORD
+      - GOOGLE_GENERATIVE_AI_API_KEY=$GOOGLE_GENERATIVE_AI_API_KEY
+      - API_PROXY_BASE_URL=$API_PROXY_BASE_URL
+      - HEAD_SCRIPTS=$HEAD_SCRIPTS
+    ports:
+      - "3333:3000"

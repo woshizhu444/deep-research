@@ -1,0 +1,115 @@
+{
+  "title": "深度研究",
+  "theme": "主题",
+  "openSource": "开源代码",
+  "copyright": "{{name}} 团队用 ❤️ 构建",
+  "research": {
+    "common": {
+      "startThinking": "开始思考",
+      "thinkingQuestion": "思考问题...",
+      "startResearch": "开始研究",
+      "writeReport": "撰写报告",
+      "continueResearch": "继续研究",
+      "rewriteReport": "重写报告",
+      "sources": "资料来源",
+      "thinking": "思考中...",
+      "research": "研究中...",
+      "writing": "撰写中...",
+      "newResearch": "开始新研究",
+      "delete": "删除"
+    },
+    "topic": {
+      "title": "1. 研究方向",
+      "topicLabel": "研究主题",
+      "topicPlaceholder": "任何您想了解的问题..."
+    },
+    "feedback": {
+      "title": "2. 提出您的想法",
+      "emptyTip": "等待确定研究主题...",
+      "feedbackLabel": "您的回答（可选）",
+      "feedbackPlaceholder": "畅所欲言，谈谈您的见解..."
+    },
+    "searchResult": {
+      "title": "3. 信息搜集",
+      "emptyTip": "等待分配研究任务...",
+      "suggestionLabel": "研究建议（可选）",
+      "suggestionPlaceholder": "是否增加或者调整研究方向..."
+    },
+    "finalReport": {
+      "title": "4. 最终报告",
+      "emptyTip": "等待数据汇总...",
+      "researchedInfor": "已研究 {{total}} 个网站"
+    },
+    "history": {
+      "title": "历史记录",
+      "name": "标题",
+      "emptyTip": "没有历史记录",
+      "date": "创建时间",
+      "actions": "操作",
+      "load": "加载",
+      "delete": "删除",
+      "close": "关闭",
+      "noHistory": "没有历史记录"
+    }
+  },
+  "artifact": {
+    "AIWrite": "AI 写作",
+    "writingPromptTip": "请输入写作需求...",
+    "readingLevel": "阅读水平",
+    "PhD": "博士",
+    "college": "大学生",
+    "teenager": "青少年",
+    "child": "儿童",
+    "pirate": "海盗",
+    "adjustLength": "调整长度",
+    "longest": "更长",
+    "long": "长",
+    "shorter": "短",
+    "shortest": "更短",
+    "translate": "翻译",
+    "continuation": "续写",
+    "addEmojis": "添加表情",
+    "send": "发送"
+  },
+  "editor": {
+    "WYSIWYM": "所见即所得",
+    "save": "保存",
+    "edit": "编辑",
+    "export": "导出",
+    "placeholder": "请输入文本或按下“/”显示指令",
+    "text": "文本",
+    "list": "列表",
+    "advanced": "高级",
+    "h1": "标题 1",
+    "h2": "标题 2",
+    "h3": "标题 3",
+    "h4": "标题 4",
+    "h5": "标题 5",
+    "h6": "标题 6",
+    "quote": "引用",
+    "divider": "分隔线",
+    "bulletList": "无序列表",
+    "orderedList": "有序列表",
+    "taskList": "任务列表",
+    "image": "图像",
+    "codeBlock": "代码",
+    "table": "表格",
+    "math": "数学公式"
+  },
+  "setting": {
+    "title": "设置",
+    "description": "所有设置都将保存在您的浏览器中。",
+    "local": "本地",
+    "server": "服务器",
+    "apiKeyLabel": "API 密钥",
+    "apiKeyPlaceholder": "请在此处输入您的模型 API 密钥",
+    "apiUrlLabel": "API 链接",
+    "accessPassword": "访问密码",
+    "accessPasswordPlaceholder": "请输入服务器访问密码",
+    "thinkingModel": "思维模型",
+    "networkingModel": "联网模型",
+    "language": "系统语言",
+    "save": "保存",
+    "cancel": "取消"
+  }
+}

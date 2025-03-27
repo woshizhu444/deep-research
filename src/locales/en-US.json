@@ -1,0 +1,115 @@
+{
+  "title": "Deep Research",
+  "theme": "Theme",
+  "openSource": "Open Source",
+  "copyright": "Created with ❤️ by {{name}} team",
+  "research": {
+    "common": {
+      "startThinking": "Start Thinking",
+      "thinkingQuestion": "Thinking Question...",
+      "startResearch": "Start Research",
+      "writeReport": "Write Report",
+      "continueResearch": "Continue Research",
+      "rewriteReport": "Rewrite Report",
+      "sources": "Sources",
+      "thinking": "Thinking...",
+      "research": "Research...",
+      "writing": "Writing...",
+      "newResearch": "New Research",
+      "delete": "Delete"
+    },
+    "topic": {
+      "title": "1. Research Topics",
+      "topicLabel": "Research topics",
+      "topicPlaceholder": "Any questions you want to know..."
+    },
+    "feedback": {
+      "title": "2. Ask Question",
+      "emptyTip": "Waiting for research topic...",
+      "feedbackLabel": "Your Answer (Optional)",
+      "feedbackPlaceholder": "You can answer whatever you want..."
+    },
+    "searchResult": {
+      "title": "3. Information Collection",
+      "emptyTip": "Waiting for research task...",
+      "suggestionLabel": "Research suggestions (Optional)",
+      "suggestionPlaceholder": "Whether to add or adjust research directions..."
+    },
+    "finalReport": {
+      "title": "4. Final Report",
+      "emptyTip": "Waiting for data to be collated...",
+      "researchedInfor": "Researched {{total}} websites"
+    },
+    "history": {
+      "title": "History",
+      "name": "Title",
+      "emptyTip": "No history records",
+      "date": "Date",
+      "actions": "Action",
+      "load": "Load",
+      "delete": "Delete",
+      "close": "Close",
+      "noHistory": "No history records"
+    }
+  },
+  "artifact": {
+    "AIWrite": "AI Write",
+    "writingPromptTip": "Please enter writing prompts...",
+    "readingLevel": "Reading Level",
+    "PhD": "PhD",
+    "college": "College",
+    "teenager": "Teenager",
+    "child": "Child",
+    "pirate": "Pirate",
+    "adjustLength": "Adjust Length",
+    "longest": "Longest",
+    "long": "Long",
+    "shorter": "Shorter",
+    "shortest": "Shortest",
+    "translate": "Translate",
+    "continuation": "Continuation",
+    "addEmojis": "Add Emojis",
+    "send": "Send"
+  },
+  "editor": {
+    "WYSIWYM": "WYSIWYM",
+    "save": "Save",
+    "edit": "Edit",
+    "export": "Export",
+    "placeholder": "Please enter text or press \"/\" for commands",
+    "text": "Text",
+    "list": "List",
+    "advanced": "Advanced",
+    "h1": "Heading 1",
+    "h2": "Heading 2",
+    "h3": "Heading 3",
+    "h4": "Heading 4",
+    "h5": "Heading 5",
+    "h6": "Heading 6",
+    "quote": "Quote",
+    "divider": "Divider",
+    "bulletList": "BulletList",
+    "orderedList": "OrderedList",
+    "taskList": "TaskList",
+    "image": "Image",
+    "codeBlock": "Code Block",
+    "table": "Table",
+    "math": "Math"
+  },
+  "setting": {
+    "title": "Setting",
+    "description": "All settings are saved in the user's browser.",
+    "local": "Local",
+    "server": "Server",
+    "apiKeyLabel": "Api Key",
+    "apiKeyPlaceholder": "Please enter the Model Api Key",
+    "apiUrlLabel": "Api Url",
+    "accessPassword": "Access Password",
+    "accessPasswordPlaceholder": "Please enter the server access password",
+    "thinkingModel": "Thinking Model",
+    "networkingModel": "Networking Model",
+    "language": "Language",
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}
