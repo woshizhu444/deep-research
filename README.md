@@ -65,7 +65,7 @@ Follow these steps to get Deep Research up and running on your local browser.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/u14app/deep-research.git
+   git clone https://github.com/woshizhu444/deep-research.git
    cd deep-research
    ```
 
@@ -218,4 +218,4 @@ For major changes, please open an issue first to discuss your proposed changes.
 
 ## ✉️ Contact
 
-If you have any questions, suggestions, or feedback, please create a new [issue](https://github.com/u14app/deep-research/issues).
+If you have any questions, suggestions, or feedback, please create a new [issue](https://github.com/woshizhu444/deep-research/issues).
